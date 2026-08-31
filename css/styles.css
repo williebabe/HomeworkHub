@@ -152,26 +152,7 @@ ul {
     animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
 
-#imageInput {
-    background-color: #f7f9fc;
-    border: 1px dashed #cbd5e1;
-    border-radius: 14px;
-    padding: 10px;
-    color: #64748b;
-    cursor: pointer;
-}
 
-#imageInput::-webkit-file-upload-button {
-    background: #e2e8f0;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 8px;
-    color: #1e293b;
-    font-weight: 500;
-    cursor: pointer;
-    margin-right: 10px;
-    font-family: 'Prompt', sans-serif;
-}
 
 @media screen and (max-width: 380px) {}
     body {
