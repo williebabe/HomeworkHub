@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Homework List!</h1>
+        
+        <div class="form-box">
+            <input type="text" id="subjectInput" placeholder="subject (example: Maths)">
+            <input type="text" id="descInput" placeholder="description">
+            <input type="date" id="dateInput">
+            <input type="url" id="linkInput" placeholder="Slide Link">
+            <input type="file" id="imageInput" accept="image/*" style="font-size: 13px; padding: 10px;">
+            <button id="addBtn">Add Your Homework</button>
+            
+        </div>
+
+        <ul id="homeworkList"></ul>
+    </div>
+    
+
+    <script src="javascripts/scripts.js"></script>
+</body>
+</html>
