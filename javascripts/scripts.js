@@ -56,7 +56,7 @@ function saveAndRender(item) {
         saveToStorage(item);
         addHomeworkToDOM(item);
         
-        
+        // ล้างค่าช่องกรอก
         document.getElementById('subjectInput').value = '';
         document.getElementById('descInput').value = '';
         document.getElementById('dateInput').value = '';
